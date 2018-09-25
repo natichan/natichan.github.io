@@ -1,0 +1,74 @@
+  .hexagon {
+    position: relative;
+    width: 300px; 
+    height: 173.21px;
+    margin: 86.60px 0;
+    background-image: url(../../../img/red-socialOne.png);
+    background-size: auto 300.2221px;
+    background-position: center;
+    box-shadow: 0 0 80px rgba(5,2,2,0.5);
+    border-left: solid 20px #ffffff;
+    border-right: solid 20px #ffffff;
+  }
+  
+  .hexTop,
+  .hexBottom {
+    position: absolute;
+    z-index: 1;
+    width: 212.13px;
+    height: 212.13px;
+    overflow: hidden;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 23.93px;
+    box-shadow: 0 0 80px rgba(5,2,2,0.5);
+  }
+  
+  /*counter transform the bg image on the caps*/
+  .hexTop:after,
+  .hexBottom:after {
+    content: "";
+    position: absolute;
+    width: 260.0000px;
+    height: 150.11106998930273px;
+    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-75.0555px);
+    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-75.0555px);
+    transform:          rotate(45deg) scaleY(1.7321) translateY(-75.0555px);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+  }
+  
+  .hexTop {
+    top: -106.0660px;
+    border-top: solid 28.2843px #ffffff;
+    border-right: solid 28.2843px #ffffff;
+  }
+  
+  .hexTop:after {
+    background-position: center top;
+  }
+  
+  .hexBottom {
+    bottom: -106.0660px;
+    border-bottom: solid 28.2843px #ffffff;
+    border-left: solid 28.2843px #ffffff;
+  }
+  
+  .hexBottom:after {
+    background-position: center bottom;
+  }
+  
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    top: 11.5470px;
+    left: 0;
+    width: 260.0000px;
+    height: 150.1111px;
+    z-index: 2;
+    background: inherit;
+  }
