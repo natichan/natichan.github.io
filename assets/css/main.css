@@ -1,0 +1,62 @@
+#home{
+    background-color: #ffff;
+   /*  background-image: url(../img/art-artist-background-316466.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position-y: center;
+    margin: 0%;
+    padding: 0%; */
+}
+#skills{
+    background-color: #81E0C0;
+}
+#projects{
+    background-color: #ffff;
+}
+#aboutMe{
+    background-color: #533E35;
+}
+#contact{
+    background-color: #ffff;
+}
+section{
+    min-height: 100vh;
+    max-width: 1800vh;
+}
+h1{
+    font-size: 90px;
+    color: #14CAB4;
+    margin-bottom: 0%;
+}
+h1, h2{
+    font-family: 'Lato', Arial, sans-serif;
+    text-align: left;
+}
+h2{
+    font-size: 60px;
+    color: #FA5262;
+}
+h4{
+    color: #FA5262;
+    text-align: right;
+    margin-right: 5%;
+}
+img{
+    height: 10em;
+    width: 10em;
+    background-color: #ffff;
+}
+.title{
+    margin: 5%;
+}
+.pro{
+    margin: 10%;
+    align-content: center;
+}
+
+/* Paleta colores
+#14CAB4
+#81E0C0
+#BCDCB1
+#533E35
+#FA5262 */
