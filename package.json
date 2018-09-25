@@ -10,9 +10,11 @@
     "portfolio",
     "test",
     "development",
-    "front",
-    "end"
+    "frontend"
   ],
   "author": "Natalia MH <nataliamh.88qgmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^3.0.0-beta.5"
+  }
 }
