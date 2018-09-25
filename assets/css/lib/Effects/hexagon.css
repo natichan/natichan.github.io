@@ -4,11 +4,11 @@
     height: 173.21px;
     margin: 86.60px 0;
     background-image: url(../../../img/red-socialOne.png);
-    background-size: auto 300.2221px;
+    background-size: auto 311.7691px;
     background-position: center;
-    box-shadow: 0 0 80px rgba(5,2,2,0.5);
-    border-left: solid 20px #ffffff;
-    border-right: solid 20px #ffffff;
+    box-shadow: 0 0 80px rgba(5,2,2,0.15);
+    border-left: solid 15px #ffffff;
+    border-right: solid 15px #ffffff;
   }
   
   .hexTop,
@@ -22,8 +22,8 @@
     -ms-transform: scaleY(0.5774) rotate(-45deg);
     transform: scaleY(0.5774) rotate(-45deg);
     background: inherit;
-    left: 23.93px;
-    box-shadow: 0 0 80px rgba(5,2,2,0.5);
+    left: 28.93px;
+    box-shadow: 0 0 80px rgba(5,2,2,0.15);
   }
   
   /*counter transform the bg image on the caps*/
@@ -31,11 +31,11 @@
   .hexBottom:after {
     content: "";
     position: absolute;
-    width: 260.0000px;
-    height: 150.11106998930273px;
-    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-75.0555px);
-    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-75.0555px);
-    transform:          rotate(45deg) scaleY(1.7321) translateY(-75.0555px);
+    width: 270.0000px;
+    height: 155.884572681199px;
+    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-77.9423px);
+    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-77.9423px);
+    transform:          rotate(45deg) scaleY(1.7321) translateY(-77.9423px);
     -webkit-transform-origin: 0 0;
     -ms-transform-origin: 0 0;
     transform-origin: 0 0;
@@ -44,8 +44,8 @@
   
   .hexTop {
     top: -106.0660px;
-    border-top: solid 28.2843px #ffffff;
-    border-right: solid 28.2843px #ffffff;
+    border-top: solid 21.2132px #ffffff;
+    border-right: solid 21.2132px #ffffff;
   }
   
   .hexTop:after {
@@ -54,8 +54,8 @@
   
   .hexBottom {
     bottom: -106.0660px;
-    border-bottom: solid 28.2843px #ffffff;
-    border-left: solid 28.2843px #ffffff;
+    border-bottom: solid 21.2132px #ffffff;
+    border-left: solid 21.2132px #ffffff;
   }
   
   .hexBottom:after {
@@ -65,10 +65,10 @@
   .hexagon:after {
     content: "";
     position: absolute;
-    top: 11.5470px;
+    top: 8.6603px;
     left: 0;
-    width: 260.0000px;
-    height: 150.1111px;
+    width: 270.0000px;
+    height: 155.8846px;
     z-index: 2;
     background: inherit;
   }
