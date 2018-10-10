@@ -1,74 +1,20 @@
-  .hexagon {
-    position: relative;
-    width: 300px; 
-    height: 173.21px;
-    margin: 86.60px 0;
-    background-image: url(../../../img/red-socialOne.png);
-    background-size: auto 311.7691px;
-    background-position: center;
-    box-shadow: 0 0 80px rgba(5,2,2,0.15);
-    border-left: solid 15px #ffffff;
-    border-right: solid 15px #ffffff;
-  }
-  
-  .hexTop,
-  .hexBottom {
-    position: absolute;
-    z-index: 1;
-    width: 212.13px;
-    height: 212.13px;
-    overflow: hidden;
-    -webkit-transform: scaleY(0.5774) rotate(-45deg);
-    -ms-transform: scaleY(0.5774) rotate(-45deg);
-    transform: scaleY(0.5774) rotate(-45deg);
-    background: inherit;
-    left: 28.93px;
-    box-shadow: 0 0 80px rgba(5,2,2,0.15);
-  }
-  
-  /*counter transform the bg image on the caps*/
-  .hexTop:after,
-  .hexBottom:after {
-    content: "";
-    position: absolute;
-    width: 270.0000px;
-    height: 155.884572681199px;
-    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-77.9423px);
-    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-77.9423px);
-    transform:          rotate(45deg) scaleY(1.7321) translateY(-77.9423px);
-    -webkit-transform-origin: 0 0;
-    -ms-transform-origin: 0 0;
-    transform-origin: 0 0;
-    background: inherit;
-  }
-  
-  .hexTop {
-    top: -106.0660px;
-    border-top: solid 21.2132px #ffffff;
-    border-right: solid 21.2132px #ffffff;
-  }
-  
-  .hexTop:after {
-    background-position: center top;
-  }
-  
-  .hexBottom {
-    bottom: -106.0660px;
-    border-bottom: solid 21.2132px #ffffff;
-    border-left: solid 21.2132px #ffffff;
-  }
-  
-  .hexBottom:after {
-    background-position: center bottom;
-  }
-  
-  .hexagon:after {
-    content: "";
-    position: absolute;
-    top: 8.6603px;
-    left: 0;
-    width: 270.0000px;
-    height: 155.8846px;
-    z-index: 2;
-    background: inherit;
-  }
+#hexagono3 {
+  height: 20em;
+  margin: -3em 0;
+  overflow: hidden;
+  transform: rotate(120deg);
+  visibility: hidden;
+  width: 10em;
+}
+#hexagono3-1 {
+  height: 100%;
+  overflow: hidden;
+  transform: rotate(-60deg);
+  width: 100%;
+}
+#hexagono3-2 {
+  height: 100%;
+  transform: rotate(-60deg); 
+  visibility: visible ;
+  width: 100%;
+}
