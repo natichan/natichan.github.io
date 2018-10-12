@@ -7,16 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="./assets/materialize/css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/lib/Effects/buttonLib.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/lib/Effects/text.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/lib/Effects/card.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/lib/Effects/hexagon.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/lib/Effects/icon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/lib/Effects/navbar/buttonLib.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/lib/Effects/text/text.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/lib/Effects/card/card.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/lib/Effects/icon.css" />
 </head>
 <body>
-    <section id="home" data-aos="zoom-in-up">
+    <section id="home" class="container">
+        <div class="row">
+            <div class="col s12">
             <div>      
                 <ul class="snip1341">
                     <li><a href="#portfolio" data-hover="Portfolio">Portfolio</a></li>
@@ -25,16 +27,18 @@
                     <li><a href="#contact" data-hover="Contact">Contact</a></li>
                 </ul>
             </div>
-        <div class="title">
-            <h1>NATALIA <br> MARTÍNEZ</h1>
-            <h2 id="hero">&lt;Front-end developer&gt</h2>
         </div>
+            <div class="title col s12">
+                    <h1>NATALIA <br> MARTÍNEZ</h1>
+                    <h2 id="hero">&lt;Front-end developer&gt</h2>
+                </div>
+            </div>
     </section>
 
     <section id="portfolio">
-        <div id="hexagono3" class="color-example">
-            <div id="hexagono3-1" class="color-example">
-              <div id="hexagono3-2" class="color-example"></div>
+        <div>
+            <div>
+              <div class="img"><img src="assets/"></div>
             </div>
           </div>
               <figure class="snip1559">
@@ -50,6 +54,11 @@
                   </figcaption>
                 </figure>            
     </section>
+    <section class="container" id="aboutMe">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </section>
     <section id="skills">
         <h4>Skills</h4>
         <div class="row">
@@ -62,17 +71,31 @@
               <a href="#" class="snip1489"><i class="devicon-html5-plain colored"></i></a>
               <a href="#" class="snip1489"><i class="devicon-visualstudio-plain colored"></i></a>
               <a href="#" class="snip1489"><i class="devicon-trello-plain colored"></i></a>
+              <a href="#" class="snip1489"><i class="devicon-angularjs-plain colored"></i></a>
+              <a href="#" class="snip1489"><i class="devicon-github-plain colored"></i></a>
+              <a href="#" class="snip1489"><img src="assets/img/iconomaterialize (1).png" class="colored materialize"></a>
           </div>
         </div>
     </section>
+    <section class="container" id="contact">
+        <div class="row">
+            <div class="col">
+                <div class="iconLGC">
+                    <a href="https://www.linkedin.com/in/natalia-mart%C3%ADnez-herrera-1475bbba/"><i class="fab fa-linkedin" target="about_blank"></i></a>
+                    <a href="https://github.com/natichan" target="about_blank"><i class="fab fa-github" target="about_blank"></i></a>
+                    <a href="https://www.canva.com/design/DADFrQB8AMk/V_9Un6kuLl4On4S5Q6c8wg/view?website#4" target="about_blank"><i class="far fa-file-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/css/lib/Navbar/nav.js"></script>
+    <script type="text/javascript" src="assets/lib/Navbar/nav.js"></script>
     <script type="text/javascript" src="./assets/materialize/js/materialize.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
-    <script src="./assets/css/lib/Navbar/nav.js"></script>
-    <script src="./assets/css/lib/Effects/buttonLib.js"></script>
+    <script src="./assets/lib/Navbar/nav.js"></script>
+    <script src="./assets/lib/Effects/navbar/buttonLib.js"></script>
 </body>
 </html>

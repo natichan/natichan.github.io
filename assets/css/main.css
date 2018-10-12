@@ -49,6 +49,17 @@ h4{
     color: #81E0C0 !important;
     font-size: 30px;
 }
+.materialize{
+    height: 30px;
+}
+.fa-linkedin, .fa-github, .fa-file-alt{
+    font-size: 3rem;
+    margin: 7%;
+    color: #533E35;
+}
+.iconLGC{
+    margin-top: 7%;
+}
 
 /* Paleta colores
 #14CAB4
