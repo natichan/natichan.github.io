@@ -1,25 +1,8 @@
-body{
-    margin-right: 4%;
-    margin-left: 4%;
-}
 #home{
     background-color: #ffff;
-   /*  background-image: url(../img/art-artist-background-316466.jpg);
-    height: 400px;
-    background-size: cover;
-    background-position-y: center;
-    margin: 0%;
-    padding: 0%; */
 }
-
-#projects{
-    background-color: #ffff;
-}
-#aboutMe{
-    background-color: #533E35;
-}
-#contact{
-    background-color: #ffff;
+#portfolioMobile, .mobileNavSection{
+    display: none;
 }
 section{
     min-height: 100vh;
@@ -29,11 +12,11 @@ h1{
     color: #14CAB4;
     margin-bottom: 0%;
 }
-h1, h2, h4{
+h1, #hero, h4{
     font-family: 'Lato', Arial, sans-serif;
     text-align: left;
 }
-h2{
+#hero{
     font-size: 60px;
     color: #FA5262;
 }
@@ -52,6 +35,9 @@ h4{
 .materialize{
     height: 30px;
 }
+.npm{
+    height: 20px;
+}
 .fa-linkedin, .fa-github, .fa-file-alt{
     font-size: 3rem;
     margin: 7%;
@@ -60,10 +46,27 @@ h4{
 .iconLGC{
     margin-top: 7%;
 }
+.proImg{
+    border: rgba(0, 0, 0, 0.02) solid;
+    background-size: cover;
+    opacity: 0.5;
 
-/* Paleta colores
-#14CAB4
-#81E0C0
-#BCDCB1
-#533E35
-#FA5262 */
+}
+.card{
+    margin: 5%;
+}
+.contactImg{
+    min-height: 100vh;
+}
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 50px;
+    }
+    #portfolioMobile, .mobileNavSection{
+        display: block;
+    }
+    #portfolio, .navWebSection{
+        display: none;
+    }
+}

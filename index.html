@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="./assets/materialize/css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
@@ -14,88 +15,312 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/lib/Effects/text/text.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/lib/Effects/card/card.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/lib/Effects/icon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/lib/Effects/contact/contact.css" />
 </head>
 <body>
-    <section id="home" class="container">
+    <section id="home">
         <div class="row">
-            <div class="col s12">
-            <div>      
+            <div class="col s12 navWebSection">
                 <ul class="snip1341">
                     <li><a href="#portfolio" data-hover="Portfolio">Portfolio</a></li>
+                    <li class="portMobile"><a href="#portfolioMobile" data-hover="Portfolio">Portfolio</a></li>
                     <li><a href="#aboutMe" data-hover="About Me">About Me</a></li>
                     <li><a href="#skills" data-hover="Skills">Skills</a></li>
                     <li><a href="#contact" data-hover="Contact">Contact</a></li>
                 </ul>
             </div>
-        </div>
-            <div class="title col s12">
+            <div class="col s12 mobileNavSection">
+                    <ul class="snip1341">
+                        <li class="portMobile"><a href="#portfolioMobile" data-hover="Portfolio">Portfolio</a></li>
+                        <li><a href="#aboutMe" data-hover="About Me">About Me</a></li>
+                        <li><a href="#skills" data-hover="Skills">Skills</a></li>
+                        <li><a href="#contact" data-hover="Contact">Contact</a></li>
+                    </ul>
+                </div>
+            <div class="col s12">
                     <h1>NATALIA <br> MARTÍNEZ</h1>
                     <h2 id="hero">&lt;Front-end developer&gt</h2>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="container">
+        <div class="row">
+            <div class="card">
+                <div class="col s12">
+                    <div class="col s12 m6 projectImg">
+                        <img class="proImg circle z-depth-4" src="assets/img/redsocialjs.png">
+                    </div>
+                <div class="col s12 m6">
+                    <div class="card-content">
+                      <span class="card-title">Veggie experience</span>
+                      <p>Description</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#">Demo</a>
+                      <a href="#">Code</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="col s12">
+                        <div class="col s12 m6">
+                            <div class="card-content">
+                                <span class="card-title">Markdown Links</span>
+                                <p>Description</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">Demo</a>
+                                <a href="#">Code</a>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 projectImg">
+                            <img class="proImg2 circle z-depth-4" src="assets/img/markdown.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+                <div class="card">
+                    <div class="col s12">
+                    <div class="col s12 m6 projectImg">
+                        <img class="proImg circle z-depth-4" src="assets/img/translab.png">
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="card-content">
+                            <span class="card-title">translab</span>
+                            <p>Description</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Demo</a>
+                            <a href="#">Code</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="card">
+                <div class="col s12">
+                        <div class="col s12 m6">
+                            <div class="card-content">
+                                <span class="card-title">Movies database</span>
+                                <p>Description</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">Demo</a>
+                                <a href="#">Code</a>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 projectImg">
+                           <img class="proImg2 circle z-depth-4" src="assets/img/movies.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+                <div class="card">
+                    <div class="col s12">
+                    <div class="col s12 m6 projectImg">
+                       <img class="proImg circle z-depth-4" src="assets/img/cards.png">
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="card-content">
+                            <span class="card-title">Memorice game</span>
+                            <p>Description</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Demo</a>
+                            <a href="#">Code</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="card">
+                <div class="col s12">
+                        <div class="col s12 m6">
+                            <div class="card-content">
+                                <span class="card-title">Visitor register</span>
+                                <p>Description</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">Demo</a>
+                                <a href="#">Code</a>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 projectImg">
+                            <img class="proImg2 circle z-depth-4" src="assets/img/registroVisitas.png">
+                        </div>
+                    </div>
                 </div>
             </div>
     </section>
-
-    <section id="portfolio">
-        <div>
-            <div>
-              <div class="img"><img src="assets/"></div>
-            </div>
-          </div>
-              <figure class="snip1559">
-                  <div class="profile-image"></div>
-                  <figcaption>
-                      <h3>Fecha y tiempo de ejecución</h3>
-                      <h5>Nombre Proyecto</h5>
-                      <p>Resumen de proyecto y herramientas usadas</p>
-                    <div class="icons">
-                      <a href="#">DEMO</a>
-                      <a href="#">CODE</a>
+    <section id="portfolioMobile" class="container">
+            <div class="row">
+                <div class="card">
+                    <div class="col s12">
+                    <div class="col s12 m6 projectImg">
+                        <img class="proImg circle z-depth-4" src="assets/img/redsocialjs.png">
                     </div>
-                  </figcaption>
-                </figure>            
-    </section>
+                    <div class="col s12 m6">
+                        <div class="card-content">
+                          <span class="card-title">Veggie experience</span>
+                          <p>Description</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="#">Demo</a>
+                          <a href="#">Code</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <div class="col s12">
+                            <div class="col s12 m6 projectImg">
+                                    <img class="proImg2 circle z-depth-4" src="assets/img/markdown.png">
+                                </div>
+                            <div class="col s12 m6">
+                                <div class="card-content">
+                                    <span class="card-title">Markdown Links</span>
+                                    <p>Description</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Demo</a>
+                                    <a href="#">Code</a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            <div class="row">
+                    <div class="card">
+                        <div class="col s12">
+                        <div class="col s12 m6 projectImg">
+                            <img class="proImg circle z-depth-4" src="assets/img/translab.png">
+                        </div>
+                        <div class="col s12 m6">
+                            <div class="card-content">
+                                <span class="card-title">translab</span>
+                                <p>Description</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">Demo</a>
+                                <a href="#">Code</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="card">
+                    <div class="col s12">
+                            <div class="col s12 m6 projectImg">
+                                    <img class="proImg2 circle z-depth-4" src="assets/img/movies.png">
+                                </div>
+                            <div class="col s12 m6">
+                                <div class="card-content">
+                                    <span class="card-title">Movies database</span>
+                                    <p>Description</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Demo</a>
+                                    <a href="#">Code</a>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            <div class="row">
+                    <div class="card">
+                        <div class="col s12">
+                        <div class="col s12 m6 projectImg">
+                            <img class="proImg circle z-depth-4" src="assets/img/cards.png">
+                        </div>
+                        <div class="col s12 m6">
+                            <div class="card-content">
+                                <span class="card-title">Memorice game</span>
+                                <p>Description</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">Demo</a>
+                                <a href="#">Code</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="card">
+                    <div class="col s12">
+                        <div class="col s12 m6 projectImg">
+                                <img class="proImg2 circle z-depth-4" src="assets/img/registroVisitas.png">
+                            </div>
+                            <div class="col s12 m6">
+                                <div class="card-content">
+                                    <span class="card-title">Visitor register</span>
+                                    <p>Description</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Demo</a>
+                                    <a href="#">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
     <section class="container" id="aboutMe">
         <div class="row">
             <div class="col"></div>
         </div>
     </section>
-    <section id="skills">
+    <section id="skills" class="container">
         <h4>Skills</h4>
         <div class="row">
-          <div class="s12">
+          <div class="col s12">
               <a href="#" class="snip1489 "><i class="devicon-javascript-plain colored"></i></a>
               <a href="#" class="snip1489"><i class="devicon-react-original colored"></i></a>
               <a href="#" class="snip1489"><i class="devicon-css3-plain-wordmark colored"></i></a>
               <a href="#" class="snip1489"><i class="devicon-bootstrap-plain colored"></i></a>
               <a href="#" class="snip1489"><i class="devicon-git-plain-wordmark colored"></i></a>
               <a href="#" class="snip1489"><i class="devicon-html5-plain colored"></i></a>
-              <a href="#" class="snip1489"><i class="devicon-visualstudio-plain colored"></i></a>
-              <a href="#" class="snip1489"><i class="devicon-trello-plain colored"></i></a>
               <a href="#" class="snip1489"><i class="devicon-angularjs-plain colored"></i></a>
-              <a href="#" class="snip1489"><i class="devicon-github-plain colored"></i></a>
               <a href="#" class="snip1489"><img src="assets/img/iconomaterialize (1).png" class="colored materialize"></a>
+              <a href="#" class="snip1489"><i class="devicon-nodejs-plain colored"></i></a>
+              <a href="#" class="snip1489"><i class="devicon-mocha-plain colored"></i></a>
+              <a href="#" class="snip1489"><img src="assets/img/npm (1).png" class="colored npm"></a>          
           </div>
         </div>
     </section>
-    <section class="container" id="contact">
-        <div class="row">
-            <div class="col">
-                <div class="iconLGC">
-                    <a href="https://www.linkedin.com/in/natalia-mart%C3%ADnez-herrera-1475bbba/"><i class="fab fa-linkedin" target="about_blank"></i></a>
-                    <a href="https://github.com/natichan" target="about_blank"><i class="fab fa-github" target="about_blank"></i></a>
-                    <a href="https://www.canva.com/design/DADFrQB8AMk/V_9Un6kuLl4On4S5Q6c8wg/view?website#4" target="about_blank"><i class="far fa-file-alt"></i></a>
-                </div>
-            </div>
-        </div>
+    <section id="contact">
+        <figure class="snip1288">
+            <img src="/assets/img/apple-watch-desk-equipment-876467 (1).jpg" class="contactImg" alt="sample58"/>
+                <figcaption>
+                    <h2>Contact</h2>
+                    <div class="icons">
+                    <a href="https://www.linkedin.com/in/natalia-mart%C3%ADnez-herrera-1475bbba/"  target=" target _blank"><i class="fab fa-linkedin" ></i></a>
+                    <a href="https://github.com/natichan" target="target _blank"><i class="fab fa-github" target="target _blank"></i></a>
+                    <a href="https://www.canva.com/design/DADFrQB8AMk/V_9Un6kuLl4On4S5Q6c8wg/view?website#4" target=" target _blank"><i class="far fa-file-alt"></i></a>
+                    </div>
+                </figcaption>
+            <a href="#"></a>
+        </figure>
     </section>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/lib/Navbar/nav.js"></script>
+    <script src="/src/view/initMat.js"></script>
+    <script type="text/javascript" src="/assets/lib/Navbar/nav.js"></script>
     <script type="text/javascript" src="./assets/materialize/js/materialize.min.js"></script>
+    <script src="./assets/lib/Effects/aos.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
     <script src="./assets/lib/Navbar/nav.js"></script>
     <script src="./assets/lib/Effects/navbar/buttonLib.js"></script>
+    <script src="./assets/lib/Effects/contact/contact.js"></script>
 </body>
 </html>
