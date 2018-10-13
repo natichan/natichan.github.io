@@ -50,7 +50,6 @@ h4{
     border: rgba(0, 0, 0, 0.02) solid;
     background-size: cover;
     opacity: 0.5;
-
 }
 .card{
     margin: 5%;
@@ -58,7 +57,10 @@ h4{
 .contactImg{
     min-height: 100vh;
 }
-
+.profilePic{
+    width: 300px;
+    height: 250px;
+}
 @media (max-width: 600px) {
     h1{
         font-size: 50px;
