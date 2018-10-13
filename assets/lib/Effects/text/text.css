@@ -12,7 +12,7 @@
 	-webkit-animation: typing 4s steps(21, end),
 	blink-caret .5s step-end infinite alternate;
 }
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     #hero{
 		font: bold 150% Consolas, Monaco, monospace;
 	}
