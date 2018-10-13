@@ -1,0 +1,14 @@
+
+.wrapper {
+    box-sizing: border-box;
+    padding: 5px;
+    max-height: 100vh;
+}
+.wrapper .block {
+    text-align: center;
+    display: inline-block;
+    height: 30px;
+    margin: 1%;
+    margin-bottom: 5px;
+    width: 13%;
+}
