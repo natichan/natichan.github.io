@@ -1,14 +1,22 @@
 
-.wrapper {
+.pyramid {
     box-sizing: border-box;
-    padding: 5px;
-    max-height: 100vh;
 }
-.wrapper .block {
+.pyramid .block {
     text-align: center;
     display: inline-block;
     height: 30px;
     margin: 1%;
     margin-bottom: 5px;
     width: 13%;
+}
+@media (max-width: 600px) {
+    .mochaIcon{
+        display: none;
+    }
+    .pyramid .block {
+
+        margin: 4%;
+
+    }
 }
