@@ -6,7 +6,8 @@ h5{
     font-size: 0.3em;
 }
 .skills{
-    font-size: 5rem;
+    font-size: 4rem;
+    margin-top: 5%;
 }
 .colored{
     color: #81E0C0 !important;
@@ -18,3 +19,10 @@ h5{
 .npm{
     height: 20px;
 }
+@media (max-width: 700px) {
+    .skills{
+        font-size: 3rem;
+    }
+
+}
+

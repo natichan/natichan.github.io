@@ -1,6 +1,7 @@
 
 .pyramid {
     box-sizing: border-box;
+    padding-top: 2px; 
 }
 .pyramid .block {
     text-align: center;
@@ -10,6 +11,9 @@
     margin-bottom: 5px;
     width: 13%;
 }
+.snip1489{
+    margin: 0%;
+}
 @media (max-width: 600px) {
     .mochaIcon{
         display: none;
@@ -18,4 +22,5 @@
         margin: 4%;
 
     }
+
 }
