@@ -89,6 +89,10 @@ h5{
 .skills{
     font-size: 5rem;
 }
+.mainPic{
+    width: 20rem;
+    height: 20rem;
+}
 @media (max-width: 700px) {
     h1{
         font-size: 50px;
