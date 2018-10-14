@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700i,900" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="./assets/materialize/css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
@@ -43,23 +43,25 @@
                     <h2 id="hero">&lt;Front-end developer&gt</h2>
             </div>
             <div class="container demo">
-                    <div class="content">
-                       <div id="large-header" class="large-header">
-                          <canvas id="demo-canvas"></canvas>
-                       </div>
+                <div class="content">
+                    <div id="large-header" class="large-header">
+                        <canvas id="demo-canvas"></canvas>
                     </div>
-                 </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="portfolio" class="container">
+    <section id="portfolio" data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
         <div class="row">
             <div class="card">
                 <div class="col s12">
-                    <div class="col s12 m12 l6 xl6">
+                    <div class="col s12 m6 l6 xl6">
                         <img class="proImg circle z-depth-4" src="assets/img/redsocialjs.png">
                     </div>
-                <div class="col s12 m12 l6 xl6">
+                <div class="col s12 m6 l6 xl6">
                     <div class="card-content">
                       <span class="card-title">Veggie experience</span>
                       <p>Description</p>
@@ -75,7 +77,7 @@
         <div class="row">
             <div class="card">
                 <div class="col s12">
-                        <div class="col s12 m12 l6 xl6">
+                        <div class="col s12 m6 l6 xl6">
                             <div class="card-content">
                                 <span class="card-title">Markdown Links</span>
                                 <p>Description</p>
@@ -85,7 +87,7 @@
                                 <a href="#">Demo</a>
                             </div>
                         </div>
-                        <div class="col s12 m12 l6 xl6">
+                        <div class="col s12 m6 l6 xl6">
                             <img class="proImg circle z-depth-4" src="assets/img/markdown.png">
                         </div>
                     </div>
@@ -94,10 +96,10 @@
         <div class="row">
                 <div class="card">
                     <div class="col s12">
-                    <div class="col s12 m12 l6 xl6 projectImg">
+                    <div class="col s12 m6 l6 xl6 projectImg">
                         <img class="proImg circle z-depth-4" src="assets/img/translab.png">
                     </div>
-                    <div class="col s12 m12 l6 xl6">
+                    <div class="col s12 m6 l6 xl6">
                         <div class="card-content">
                             <span class="card-title">translab</span>
                             <p>Description</p>
@@ -113,7 +115,7 @@
         <div class="row">
             <div class="card">
                 <div class="col s12">
-                        <div class="col s12 m12 l6 xl6">
+                        <div class="col s12 m6 l6 xl6">
                             <div class="card-content">
                                 <span class="card-title">Movies database</span>
                                 <p>Description</p>
@@ -123,7 +125,7 @@
                                 <a href="#">Demo</a>
                             </div>
                         </div>
-                        <div class="col s12 m12 l6 xl6">
+                        <div class="col s12 m6 l6 xl6">
                            <img class="proImg circle z-depth-4" src="assets/img/movies.png">
                         </div>
                     </div>
@@ -132,10 +134,10 @@
         <div class="row">
                 <div class="card">
                     <div class="col s12">
-                    <div class="col s12 m12 l6 xl6">
+                    <div class="col s12 m6 l6 xl6">
                        <img class="proImg circle z-depth-4" src="assets/img/cards.png">
                     </div>
-                    <div class="col s12 m12 l6 xl6">
+                    <div class="col s12 m6 l6 xl6">
                         <div class="card-content">
                             <span class="card-title">Memorice game</span>
                             <p>Description</p>
@@ -151,7 +153,7 @@
         <div class="row">
             <div class="card">
                 <div class="col s12">
-                        <div class="col s12 m12 l6 xl6">
+                        <div class="col s12 m6 l6 xl6">
                             <div class="card-content">
                                 <span class="card-title">Visitor register</span>
                                 <p>Description</p>
@@ -161,7 +163,7 @@
                                 <a href="#">Demo</a>
                             </div>
                         </div>
-                        <div class="col s12 m12 l6 xl6">
+                        <div class="col s12 m6 l6 xl6">
                             <img class="proImg circle z-depth-4" src="assets/img/registroVisitas.png">
                         </div>
                     </div>
@@ -169,14 +171,14 @@
             </div>
     </section>
 
-    <section id="portfolioMobile" class="container">
-            <div class="row">
-                <div class="card">
-                    <div class="col s12">
-                    <div class="col s12 m12 l6 xl6">
+    <section id="portfolioMobile">
+            <div class="row projectsBox">
+                <div class="col s12 projectsBox">
+                    <div class="col s12 m6 l6 xl6">
                         <img class="proImg circle z-depth-4" src="assets/img/redsocialjs.png">
                     </div>
-                    <div class="col s12 m12 l6 xl6">
+                    <div class="card">
+                    <div class="col s12 m6 l6 xl6">
                         <div class="card-content">
                           <span class="card-title">Veggie experience</span>
                           <p>Description</p>
@@ -192,10 +194,10 @@
             <div class="row">
                 <div class="card">
                     <div class="col s12">
-                            <div class="col s12 m12 l6 xl6">
+                            <div class="col s12 m6 l6 xl6">
                                     <img class="proImg circle z-depth-4" src="assets/img/markdown.png">
                                 </div>
-                            <div class="col s12 m12 l6 xl6">
+                            <div class="col s12 m6 l6 xl6">
                                 <div class="card-content">
                                     <span class="card-title">Markdown Links</span>
                                     <p>Description</p>
@@ -212,10 +214,10 @@
             <div class="row">
                     <div class="card">
                         <div class="col s12">
-                        <div class="col s12 m12 l6 xl6">
+                        <div class="col s12 m6 l6 xl6">
                             <img class="proImg circle z-depth-4" src="assets/img/translab.png">
                         </div>
-                        <div class="col s12 m12 l6 xl6">
+                        <div class="col s12 m6 l6 xl6">
                             <div class="card-content">
                                 <span class="card-title">translab</span>
                                 <p>Description</p>
@@ -231,10 +233,10 @@
             <div class="row">
                 <div class="card">
                     <div class="col s12">
-                            <div class="col s12 m12 l6 xl6">
+                            <div class="col s12 m6 l6 xl6">
                                     <img class="proImg circle z-depth-4" src="assets/img/movies.png">
                                 </div>
-                            <div class="col s12 m12 l6 xl6">
+                            <div class="col s12 m6 l6 xl6">
                                 <div class="card-content">
                                     <span class="card-title">Movies database</span>
                                     <p>Description</p>
@@ -250,10 +252,10 @@
             <div class="row">
                     <div class="card">
                         <div class="col s12">
-                        <div class="col s12 m12 l6 xl6">
+                        <div class="col s12 m6 l6 xl6">
                             <img class="proImg circle z-depth-4" src="assets/img/cards.png">
                         </div>
-                        <div class="col s12 m12 l6 xl6">
+                        <div class="col s12 m6 l6 xl6">
                             <div class="card-content">
                                 <span class="card-title">Memorice game</span>
                                 <p>Description</p>
@@ -269,10 +271,10 @@
             <div class="row">
                 <div class="card">
                     <div class="col s12">
-                        <div class="col s12 m12 l6 xl6">
+                        <div class="col s12 m6 l6 xl6">
                                 <img class="proImg circle z-depth-4" src="assets/img/registroVisitas.png">
                             </div>
-                            <div class="col s12 m12 l6 xl6">
+                            <div class="col s12 m6 l6 xl6">
                                 <div class="card-content">
                                     <span class="card-title">Visitor register</span>
                                     <p>Description</p>
@@ -289,7 +291,7 @@
 
     <section id="aboutMe" class="container" >
         <div class="col s12 thought">
-            <h4> "I strongly believe that we can make a positive social impact through out technology"</h4>
+            <h4> "I strongly believe that we can make a positive social impact through technology"</h4>
         </div>
         <div class="row">
             <div class="col s12 m5 l5 xl5">
@@ -314,11 +316,12 @@
     <section id="skills" data-aos="zoom-in-up">
         <div class="pyramid">
             <div class="line">
-                <div class="block">  
+                <div class="block">
                     <a class="snip1489">
                     <i class="devicon-html5-plain colored"></i>
                     <h5 class="skillsIcon">HTML5</h5></a>
                 </div>
+                <h4 class="right skills">Skills</h4>
             </div>
             <div class="line">
                 <div class="block">

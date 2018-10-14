@@ -11,6 +11,8 @@
 	overflow: hidden;
 	-webkit-animation: typing 4s steps(21, end),
 	blink-caret .5s step-end infinite alternate;
+	margin-left: 10%;
+
 }
 @media (max-width: 600px) {
     #hero{

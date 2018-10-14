@@ -4,7 +4,7 @@
 #portfolioMobile, .mobileNavSection{
     display: none;
 }
-section{
+section, .projectsBox{
     min-height: 100vh;
 }
 h1{
@@ -15,6 +15,7 @@ h1{
 h1, #hero, h4{
     font-family: 'Lato', Arial, sans-serif;
     text-align: left;
+    margin-left: 10%;
 }
 #hero{
     font-size: 60px;
@@ -47,7 +48,6 @@ h4{
     margin-top: 7%;
 }
 .proImg{
-    border: #533E35 solid;
     background-size: cover;
     opacity: 0.5;
 }
@@ -76,12 +76,18 @@ h4{
 .card-content{
     color: #14CAB4;
 }
+.card-title{
+    font-weight: 900;
+}
 h5{
     color: #FA5262;
 }
 .skillsIcon{
     color: #FA5262;
     font-size: 0.3em;
+}
+.skills{
+    font-size: 5rem;
 }
 @media (max-width: 700px) {
     h1{
@@ -97,5 +103,9 @@ h5{
     #portfolio, .navWebSection{
         display: none;
     }
+    .skills{
+        font-size: rem;
+    }
+
 }
 
