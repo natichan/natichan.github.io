@@ -4,11 +4,8 @@
 #portfolioMobile, .mobileNavSection{
     display: none;
 }
-section, .projectsBox{
+section{
     min-height: 100vh;
-}
-.projectsBox{
-    padding: 8% 0% 8% 0%;
 }
 h1{
     font-size: 90px;
@@ -32,77 +29,14 @@ h4{
 .order{
     margin: 0%;
 }
-.colored{
-    color: #81E0C0 !important;
-    font-size: 30px;
-}
-.materialize{
-    height: 30px;
-}
-.npm{
-    height: 20px;
-}
-.fa-linkedin, .fa-github, .fa-file-alt{
-    font-size: 3rem;
-    margin: 7%;
-    color: #533E35;
-}
-.iconLGC{
-    margin-top: 7%;
-}
-.proImg{
-    background-size: cover;
-    opacity: 0.5;
-}
-.proImg:hover{
-    opacity: 1;
-}
-.card{
-    margin: 5%;
-}
-.contactImg{
-    min-height: 100vh;
-}
-.profilePic{
-    width: 350px;
-    height: 350px;
-    border-radius: 2%;
-    opacity: 0.8;
-}
-.thought{
-    margin: 5%;
-    padding: 2%;
-}
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-    color: #FA5262;
-}
-.card-content{
-    color: #14CAB4;
-}
-.card-title{
-    font-weight: 900;
-}
-h5{
-    color: #FA5262;
-}
-.skillsIcon{
-    color: #FA5262;
-    font-size: 0.3em;
-}
-.skills{
-    font-size: 5rem;
-}
 .mainPic{
     width: 20rem;
     height: 20rem;
 }
+
 @media (max-width: 700px) {
     h1{
         font-size: 50px;
-    }
-    .profilePic{
-        width: 300px;
-        height: 300px;
     }
     #portfolioMobile, .mobileNavSection{
         display: block;

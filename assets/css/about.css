@@ -1,0 +1,25 @@
+.profilePic{
+    width: 350px;
+    height: 350px;
+    border-radius: 2%;
+    opacity: 0.8;
+}
+.thought{
+    margin: 5%;
+    padding: 2%;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #FA5262;
+}
+.card-content{
+    color: #14CAB4;
+}
+.card-title{
+    font-weight: 900;
+}
+@media (max-width: 700px) {
+    .profilePic{
+        width: 300px;
+        height: 300px;
+    }
+}
