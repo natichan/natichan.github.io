@@ -1,4 +1,5 @@
-.topText{
+/* para poner texto dentro de imagen
+ .topText{
     position: absolute;
     top: 10px;
     left: 10px;
@@ -13,7 +14,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 .fa-linkedin, .fa-github, .fa-file-alt{
     font-size: 3rem;
     margin: 7%;
@@ -21,4 +22,23 @@
 }
 .iconLGC{
     margin-top: 7%;
+}
+.contactBox{
+    padding-top: 10%;
+}
+.moreContact{
+    color: #14CAB4;
+    font-size: 20px;
+}
+.titleCont{
+    color: #FA5262;
+}
+h6{
+    color: #FA5262;
+}
+@media (max-width: 700px) {
+    .moreContact{
+        color: #14CAB4;
+        font-size: 16px;
+    }
 }

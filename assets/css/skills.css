@@ -21,7 +21,17 @@ h5{
 }
 @media (max-width: 700px) {
     .skills{
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+    .materialize{
+        height: 20px;
+    }
+    .npm{
+        height: 13px;
+    }
+    .colored{
+        color: #81E0C0 !important;
+        font-size: 20px;
     }
 
 }

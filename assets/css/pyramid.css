@@ -1,23 +1,17 @@
-
 .pyramid {
     box-sizing: border-box;
-    padding-top: 2px; 
 }
 .pyramid .block {
     text-align: center;
     display: inline-block;
-    margin: 1%;
 }
-.snip1489{
-    margin: 0%;
-}
-@media (max-width: 600px) {
-    .mochaIcon{
-        display: none;
-    }
-    .pyramid .block {
-        margin: 4%;
 
+@media (max-width: 600px) {
+    .snip1489{
+        width: 55px;
+        height: 55px;
+        margin: 15px;
+        line-height: 45px;
     }
 
 }
