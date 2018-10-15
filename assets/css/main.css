@@ -12,7 +12,7 @@ h1{
     color: #14CAB4;
     margin-bottom: 0%;
 }
-h1, #hero, h4{
+h1, #hero{
     font-family: 'Lato', Arial, sans-serif;
     text-align: left;
     margin-left: 10%;
@@ -21,20 +21,9 @@ h1, #hero, h4{
     font-size: 60px;
     color: #FA5262;
 }
-h4{
-    color: #FA5262;
-    text-align: left;
-    margin-right: 5%;
-}
-.order{
-    margin: 0%;
-}
 .mainPic{
     width: 20rem;
     height: 20rem;
-}
-span{
-    font-weight: 700;
 }
 
 @media (max-width: 700px) {
@@ -48,4 +37,10 @@ span{
         display: none;
     }
 }
+@media (min-width: 700px) and (max-width: 3000px) {
+    .mobileNavSection{
+        display: none;
+    }
+}
+
 

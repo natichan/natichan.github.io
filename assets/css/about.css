@@ -8,14 +8,20 @@
     margin: 5%;
     padding: 2%;
 }
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+
+h4{
     color: #FA5262;
+    font-size: 3rem;
+    font-family: 'Lato', Arial, sans-serif;
 }
-.card-content{
-    color: #14CAB4;
+.card-panel{
+    box-shadow: none;
 }
-.card-title{
-    font-weight: 900;
+.desAboutMe{
+    font-size: 18px;
+}
+.hello{
+    font-size: 2rem;
 }
 @media (max-width: 700px) {
     .profilePic{
