@@ -40,10 +40,4 @@ h1, #hero{
         display: none;
     }
 }
-@media (min-width: 700px) and (max-width: 3000px) {
-    .mobileNavSection{
-        display: none;
-    }
-}
-
 
