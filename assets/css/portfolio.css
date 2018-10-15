@@ -30,4 +30,8 @@
     .card .card-title {
         font-size: 24px;
     }
+    .card-content{
+        color: #14CAB4;
+        font-size: 18px;
+    }
 }
