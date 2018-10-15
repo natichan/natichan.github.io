@@ -1,3 +1,9 @@
+body{
+    overflow-x: hidden !important;
+}
+[data-aos] {
+    overflow: hidden;
+}
 #home{
     background-color: #ffff;
 }
@@ -38,6 +44,9 @@ h1, #hero{
     }
     #portfolio, .navWebSection{
         display: none;
+    }
+    h1, #hero{
+        margin-left: 10%;
     }
 }
 

@@ -36,6 +36,9 @@
 h6{
     color: #FA5262;
 }
+h6, .titleCont{
+    font-family: 'Lato', Arial, sans-serif;
+}
 @media (max-width: 700px) {
     .moreContact{
         color: #14CAB4;

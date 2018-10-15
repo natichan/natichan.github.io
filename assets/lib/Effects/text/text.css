@@ -17,5 +17,6 @@
 @media (max-width: 600px) {
     #hero{
 		font: bold 150% Consolas, Monaco, monospace;
+		margin-left: 10%;
 	}
 }
