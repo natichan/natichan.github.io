@@ -1,7 +1,10 @@
 #home{
     background-color: #ffff;
 }
-#portfolioMobile, .mobileNavSection{
+#portfolioMobile{
+    display: none;
+}
+.mobileNavSection{
     display: none;
 }
 section{
