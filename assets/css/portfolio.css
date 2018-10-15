@@ -6,11 +6,11 @@
     opacity: 1;
 }
 .card{
-    margin: 5%;
+    margin: 2%;
 }
 .projectsBox{
     min-height: 100vh;
-    padding: 8% 0% 8% 0%;
+    padding: 6% 0% 8% 0%;
 }
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
     color: #FA5262;
