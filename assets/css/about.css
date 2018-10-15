@@ -5,17 +5,20 @@
     opacity: 0.8;
 }
 .thought{
-    margin: 5%;
+    margin: 3%;
     padding: 2%;
 }
 
 h4{
     color: #FA5262;
     font-size: 3rem;
+}
+h4, .card-panel, .hello, .card-content, .card .card-title{
     font-family: 'Lato', Arial, sans-serif;
 }
 .card-panel{
     box-shadow: none;
+    padding: 0%;
 }
 .desAboutMe{
     font-size: 18px;
