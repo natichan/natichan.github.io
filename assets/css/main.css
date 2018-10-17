@@ -39,6 +39,9 @@ h1, #hero{
 ul{
     margin: 0%;
 }
+.effFron{
+    text-align: center !important
+}
 @media (max-width: 700px) {
     h1{
         font-size: 50px;
