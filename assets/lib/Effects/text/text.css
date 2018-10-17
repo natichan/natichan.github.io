@@ -7,12 +7,11 @@
 	width: 16.5em; 
 	width: 21ch;
 	margin: 0%;
+	margin-left: 28%;
 	white-space: nowrap;
 	overflow: hidden;
-	-webkit-animation: typing 4s steps(21, end),
+	-webkit-animation: typing 3s steps(21, end),
 	blink-caret .5s step-end infinite alternate;
-	margin-left: 20%;
-
 }
 @media (max-width: 600px) {
     #hero{

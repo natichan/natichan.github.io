@@ -1,6 +1,12 @@
 .proImg{
     background-size: cover;
     opacity: 0.5;
+    margin-left: 20%;
+}
+.proImgDos{
+    background-size: cover;
+    opacity: 0.5;
+    margin-left: 5%;
 }
 .proImg:hover{
     opacity: 1;
@@ -13,19 +19,25 @@
     padding: 6% 0% 8% 0%;
 }
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-    color: #FA5262;
+    color: #14CAB4;
     font-size: 20px;
 
 }
 .card-content{
-    color: #14CAB4;
+    color: #FA5262;
     font-size: 20px;
 }
 .card .card-title {
     font-weight: 900;
     font-size: 40px;
+    padding-bottom: 3%;
+    color: #FA5262;
 }
-
+p{
+    word-break: keep-all;
+    text-align: left;
+    color: #533E35;
+}
 @media (max-width: 700px) {
     .card .card-title {
         font-size: 24px;
