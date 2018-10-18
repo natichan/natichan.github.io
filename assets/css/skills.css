@@ -47,5 +47,8 @@ h5{
         margin: 15px;
         line-height: 45px;
     }
+    .block{
+        margin-top: 5%;
+    }
 
 }
