@@ -6,7 +6,7 @@
     z-index:1;
     left:0;
     top:0;
-    background-color: rgba(0,0,0, 0.9); /* nero con opacity */
+    background-color: rgba(20, 202, 181, 0.856); /* nero con opacity */
     transition:0.5s;
     overflow-x:hidden; /*per disabilitare lo scroll orizzontale */
   }
@@ -18,7 +18,7 @@
     width:100%;
     text-align:center;
     margin-top:30px; /* per evitare conflitti con la x su schermi piccoli*/
-    
+    font-family: 'Lato', Arial, sans-serif;
   }
   
   /*link */
@@ -26,7 +26,7 @@
     padding:8px;
     text-decoration:none;
     font-size:36px;
-    color: #818181;
+    color: #533E35;
     display:block;
     transition:0.3s; /*per l'hover */
   }
@@ -52,18 +52,22 @@
   
   /*stile bottoni */
   button{
-    display:block;
     margin:auto;
-    background-color:black;
-    color:white;
     border:none;
     font-size:1.5em;
-    padding:20px 100px;
+    width: 70px;
+    height: 70px;
     cursor:pointer;
     transition:0.2s;
-  }
+    background: none;
+    background: #FA5262;
+    border-radius: 40px;
+}
   button:hover{
-    background-color:white;
-    color:black;
-    border:1px solid black;
+    background: none;
+    border: none;
+  }
+  button:focus{
+    background: none;
+    border: none;
   }

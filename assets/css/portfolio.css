@@ -6,6 +6,7 @@
 .proImgDos{
     background-size: cover;
     opacity: 0.5;
+    margin-top: 7%;
 }
 .proImg:hover{
     opacity: 1;

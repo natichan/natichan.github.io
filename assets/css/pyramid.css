@@ -6,12 +6,6 @@
     display: inline-block;
 }
 
-@media (max-width: 600px) {
-    .snip1489{
-        width: 55px;
-        height: 55px;
-        margin: 15px;
-        line-height: 45px;
-    }
-
+.pyramid{
+    margin-top: 8%;
 }
