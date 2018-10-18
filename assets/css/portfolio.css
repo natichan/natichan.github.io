@@ -21,7 +21,9 @@
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
     color: #14CAB4;
     font-size: 20px;
-
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover{
+    color: #FA5262;
 }
 .card-content{
     color: #FA5262;
