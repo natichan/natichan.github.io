@@ -9,11 +9,6 @@
     href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
     integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
     crossorigin="anonymous">
-    <!-- or -->
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
-    integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
-    crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700i,900" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="./assets/materialize/css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -22,13 +17,12 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/lib/Effects/navbar/buttonLib.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/lib/Effects/navbarMobile/mobile.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/lib/Effects/icon.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/lib/Effects/aboutM/aboutM.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/pyramid.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/contact.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/about.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/portfolio.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/skills.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/lib/Effects/icon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/pyramid.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/contact.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/about.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/portfolio.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/skills.css" />
 
 </head>
 <body>
@@ -44,11 +38,11 @@
             </div>
             <!-- overlay -->
             <div id="myNav" class="overlay">
-              <!--   <div>
-                    <button href="javascript:void(0)" onclick="closeNav()" ><i class="fas fa-code"></i></button>
-                </div> -->
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="overlay-content">
+                <div>
+                    <button href="javascript:void(0)" onclick="closeNav()" id="buttonCloseNav" class="mobileNavSectionClose"><i class="fas fa-code"></i></button>
+                </div>
+<!--                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ -->                <div class="overlay-content">
                     <a href="#portfolioMobile" onclick="closeNav()">Portfolio</a>
                     <a href="#aboutMe" onclick="closeNav()">About me</a>
                     <a href="#skills" onclick="closeNav()">Skills</a>
@@ -456,11 +450,9 @@
     </section>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="/src/view/initMat.js"></script>
-    <script type="text/javascript" src="/assets/lib/Navbar/nav.js"></script>
     <script type="text/javascript" src="./assets/materialize/js/materialize.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>AOS.init()</script>
-    <script src="./assets/lib/Navbar/nav.js"></script>
     <script src="./assets/lib/Effects/navbar/buttonLib.js"></script>
     <script src="./assets/lib/Effects/navbarMobile/mobile.js"></script>
 </body>
