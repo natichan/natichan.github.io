@@ -8,7 +8,7 @@
     opacity: 0.5;
     margin-top: 7%;
 }
-.proImg:hover{
+.proImg:hover, .proImgDos:hover{
     opacity: 1;
 }
 .card{
